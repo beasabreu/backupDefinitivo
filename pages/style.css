@@ -129,11 +129,11 @@
 /* Sub menu */
 .nav-sub { 
 	overflow: hidden;
-	text-align-last: left;
+	text-align-last: right;
 
 	font-size: 16px;
 
-	margin-left: 20%;
+	margin-left: 0%;
 	margin-right: 20%;
 	margin-top: 45%;
 	display:flex;
