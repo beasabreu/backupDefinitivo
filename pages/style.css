@@ -1,0 +1,192 @@
+@charset "utf-8";
+
+
+/* Skip Nav */
+#skip {
+	position: relative;}
+#skip a {
+	position: absolute; 
+	left: 0px;
+	top: -35px;
+	border: 1px solid #fff;
+	color: #fff;
+	background: #333;
+	line-height: 30px;
+	width: 140px;
+	text-align: center;}
+#skip a:active,
+#skip a:focus {
+	top: 0;}
+
+
+/* Layout */
+#wrap {
+	width: 100%; 
+	height: 100%; }
+#header_1 {
+	width: 100%; 
+	height: 120px; 
+	background-color: #111;
+	/*background: url(../images/header.jpg) center top repeat-x;*/}
+#header_2 {
+	width: 100%; 
+	height: 35px; 
+	background-color: #222; }
+#nav_1 {
+	float: left; 
+	width: 160px;
+	height: inherit;
+	background: url(../images/line.png) right;
+	background-repeat: repeat-y;
+	padding-right: 1px;
+	height: calc(100vh - 155px);}
+#nav_2 {
+	float: left; 
+	width: 240px;
+	/*background: url(../images/line.png) right;*/
+	background-repeat: repeat-y;
+	padding-right: 1px;
+	height: calc(100vh - 155px);}
+#contents {
+	float: left;
+	width: calc(100% - 402px);
+	height: calc(100vh - 155px);}
+#footer {
+	clear: both;
+	width: 100%;
+	height: 50px;
+	background-color: #111;}
+
+
+/* Header 1 */
+#header_1 .header_1-menu {
+	text-align: right;}
+#header_1 .header_1-menu a {
+	color: #fff;
+	padding: 10px 10px 10px 13px; /*     ^ > V <   */
+	display: inline-block;}
+#header_1 .header_1-menu a:hover {
+	color: #ea5a5a;}
+#header_1 .header_1-title {
+	text-align: left;
+	position: relative;
+	top: -20px}
+#header_1 .header_1-icon {
+	display: block;
+	width: 70px;
+	height: 70px;
+	background: url(../images/logo_xiao.png) no-repeat;
+	position: absolute;
+	left: 20px;
+	}    
+#header_1 .header_1-icon > a {
+	text-indent:-9999px;
+}
+#header_1 .header_1-title h1 {
+	font-size: 20px;
+	padding:  10px 10px 0px 120px;
+	display: inline-block;
+	color: #fff;
+	font-weight: normal;
+	text-transform: uppercase;}
+#header_1 .header_1-title a {
+	display: block;
+	font-size: 5px;
+	color: cornsilk;
+	padding:  0px 10px 0px 120px;}
+
+
+/* Header 2 */
+.header_2-container > div p {
+	color: #fff;
+	font-size: 15px;
+	display: inline-block;
+	width: 110px;
+	margin-top: 7px;
+	
+	margin-right: 28px;
+	margin-left: 19px;
+	text-align: left;}
+
+
+/* Menu principal */
+.nav-main{
+	overflow: hidden;
+	text-align: left;
+	margin-left: 13%;
+	margin-right: 0%;
+	display:flex;
+	flex-grow: 1;}
+.nav-main > div {
+	float: left; }
+.nav-main > div ul {
+	overflow: hidden;
+	margin: 15px 0px 15px 0px;} 
+.nav-main > div ul li {margin: 7px 0px 7px 10px;} 
+.nav-main > div ul li a:hover {text-decoration: underline;}
+
+
+/* Sub menu */
+.nav-sub { 
+	overflow: hidden;
+	text-align-last: left;
+
+	font-size: 16px;
+
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 45%;
+	display:flex;
+	flex-grow: 1;}
+.nav-sub > div {
+	float: left;
+	width: 100%;
+	margin-top: 15px;}
+.nav-sub > div ul {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 15px 0px 15px 0px;} 
+.nav-sub > div ul li {} 
+.nav-sub > div h2 {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;}
+.nav-sub > div ul li a {/*
+	background: url(../images/dot.png) no-repeat;
+	background-size: 5px 5px;*/}
+.nav-sub > div ul li a:hover {text-decoration: underline;}
+
+
+
+/* Contents */
+.cont {
+	overflow: hidden;
+	margin: 15px 15px 15px 15px;
+	height: inherit;}
+.cont .cont-title {
+	height: 45px;	
+	font-size: 30px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #111;
+	overflow-x: hidden;
+	overflow-y: hidden;}
+.cont .cont-cont  {
+	height: calc(100vh - 255px);
+	display:flex;
+	flex-grow: 1;
+	padding-top: 20px;
+	overflow-x: hidden;
+	overflow-y: scroll;}
+
+
+
+/* Footer */
+#footer > div {
+	color: #696969;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 17px;
+}
