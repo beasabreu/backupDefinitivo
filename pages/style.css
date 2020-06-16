@@ -175,10 +175,11 @@
 	overflow-y: hidden;}
 .cont .cont-cont  {
 	height: calc(100vh - 255px);
-	display:flex;
+	/*display:flex;*/
+	display: inline-block;
 	flex-grow: 1;
 	padding-top: 20px;
-	overflow-x: hidden;
+	word-wrap: break-word;
 	overflow-y: scroll;}
 
 
