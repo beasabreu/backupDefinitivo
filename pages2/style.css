@@ -127,21 +127,16 @@
 	overflow: hidden;
 	margin: 15px 15px 15px 15px;
 	height: inherit;}
-.cont .cont-title {
-	height: 45px;	
-	font-size: 30px;
-	padding-bottom: 10px;
-	border-bottom: 1px solid #111;
-	overflow-x: hidden;
-	overflow-y: hidden;}
+
 .cont .cont-cont  {
 	height: calc(100vh - 255px);
-	display:flex;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	/*display:inline-block;
 	flex-grow: 1;
 	padding-top: 20px;
-	overflow-x: hidden;
-	overflow-y: scroll;}
-
+	;
+	*/}
 
 
 /* Footer */
