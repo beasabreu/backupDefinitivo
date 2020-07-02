@@ -188,7 +188,7 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
 
-	.header_2-container {
+	#header_2 {
 		visibility: hidden;
 	}
 

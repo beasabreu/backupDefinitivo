@@ -187,7 +187,7 @@
 /* Mobile */
 @media screen and (max-width: 600px) {
 
-	.header_2-container {
+	#header_2 {
 		visibility: hidden;
 	}
 
@@ -200,14 +200,10 @@
 	#nav_2 {
 		visibility: hidden;
 		display: none;
-		clear: both;
-		float: left;
 	}
 
 	#contents {
 		visibility: hidden;
 		display: none;
-		clear: both;
-		float: left;
 	}
 }
