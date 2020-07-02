@@ -19,7 +19,7 @@ Header principal do site <br>
 
 ### #header_2
 Header secundário em que indica o que contém no #nav_1 e #nav_2  <br>
-Quando o width do site se torna menor que 600, esconde o texto do .header_2-container <br>
+Quando o width do site se torna menor que 600, esconde div é escondido <br>
 
 ### #nav_1
 Menu onde se dispõe das opções da qual deseja obter informação <br>
