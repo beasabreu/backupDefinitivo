@@ -11,8 +11,11 @@ Estrutura básica do site
 ---------------------------------------------
 ![Estrutura básisca](https://github.com/swy-326/backupDefinitivo/raw/master/readme_img/structure.png)
 
+### #skip
+Acessibilidade, Skip Navigation <br>
+
 ### #header_1 
-Header principal do site
+Header principal do site <br>
 
 ### #header_2
 Header secundário em que indica o que contém no #nav_1 e #nav_2  <br>
