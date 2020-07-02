@@ -2,10 +2,20 @@ Trabalho de Fundamentos de Sistemas de Informação
 ===================================================
 
 Website desenvolvido para a disciplina Fundamentos de Sistemas de Informação (ACH2014) <br>
-2020 - 1º Semestre <br><br>
+Prof. Luciano Araújo, 2020 - 1º Semestre <br><br>
+
 Link do Site : http://swytrabalho.byethost18.com/web/ <br>
-Histórico : https://github.com/swy-326/web3.0<br><br>
+<font size="-7"> Histórico de Commits : https://github.com/swy-326/web3.0, https://github.com/swy-326/wptheme_fsi </font> <br><br>
+
 Sungwon Yoon 9822261
+
+
+Introdução
+------------------------------------------
+Para informar sobre vestib <br><br>
+### Vídeo de apresentação
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-XXod_Bd8VQ/0.jpg)](http://www.youtube.com/watch?v=-XXod_Bd8VQ)
+
 
 
 Estrutura básica do site
