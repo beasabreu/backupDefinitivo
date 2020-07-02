@@ -12,8 +12,6 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="../images/favicon.ico"/>
 
-
-
 </head>
 
 
@@ -40,29 +38,31 @@
 				<!-- // header_1 menu -->
 				<div class="header_1-title">
 					<div class="header_1-icon">
-						<a href="http://swy-326.github.io/web3.0/index.html">
+						<a href="http://swytrabalho.byethost18.com/web/">
 							<img src="#" width="70" height="70"/>
 						</a>
 					</div>
 					<h1>Vestibulares &amp; Universidades</h1>
 					<br>
-					<a href="https://swy-326.github.io/web3.0/">https://swy-326.github.io/web3.0/</a>
+					<a href="http://swytrabalho.byethost18.com/web/">http://swytrabalho.byethost18.com/web/</a>
 				</div>
 				<!-- // header_1 title -->
 			</div>		
 		</div>
 		<!-- // header_1 -->
 
+		<!-- header_2 -->
 		<div id="header_2">
 			<div class="header_2-container">
 				<div>
 					<p>LISTA</p>
 				</div>
 			</div>		
-			<!-- //header icon menu -->
+			<!-- //header_2-container -->
 		</div>
 		<!-- // header_2 -->
 
+		<!-- nav_1 -->
 		<div id="nav_1">
 			<div class="nav-main">
 				<div>
@@ -89,22 +89,23 @@
 						<li><a href="rank.php">RANKING<br>GERAL</a></li>
 					</ul>
 				</div>
-			</div>		
+			</div>	
+			<!-- // nav-main -->	
 		</div>
 		<!-- // nav_1 -->
 		
+		<!-- contents -->
 		<div id="contents">
 			<div class="cont">
-
-
-							<div class="cont-cont">
-				
+				<div class="cont-cont">
 						<object data="index.html" width="100%" height="100%" style="float:left"></object>
-					</div>	
-				</div>
+				</div>	
+				<!-- //cont-cont -->
+			</div>
 		</div>
 		<!-- // contents -->
 
+		<!-- footer -->
 		<div id="footer">
 			<div class="footer-container">
 				    Copyright &copy; 2020, SWY. All Rights Reserved
@@ -113,12 +114,9 @@
 		<!-- // footer -->
 
 
+		
 	</div>
-
-
-
 </body>
-
 </html>
 
 

@@ -1,14 +1,33 @@
 $(document).ready(function() {
 		
+
+//https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-3.php
+
+	var todaydate = new Date();
+
+	var dd = todaydate.getDate();
+	var mm = todaydate.getMonth()+1; 
+	var yyyy = todaydate.getFullYear();
+
+	if(dd<10) {
+		dd='0'+dd;
+	} 	
+	if(mm<10) {
+		mm='0'+mm;
+	}
+
+	todaydate = mm+'-'+dd+'-'+yyyy;
+
+
 		$('#calendar').fullCalendar({
 			header: {
-				left: 'prev,next today',
+				left: 'prev,next,today',
 				center: 'title',
 				right: 'month,basicWeek,basicDay'
 			},
-			defaultDate: '2016-12-12',
+			defaultDate: todaydate,
 			navLinks: true, // can click day/week names to navigate views
-			editable: true,
+			editable: false,
 			eventLimit: true, // allow "more" link when too many events
 			events: [
 				{
@@ -21,12 +40,10 @@ $(document).ready(function() {
 					end: '2016-12-10'
 				},
 				{
-					id: 999,
 					title: 'Repeating Event',
 					start: '2016-12-09T16:00:00'
 				},
 				{
-					id: 999,
 					title: 'Repeating Event',
 					start: '2016-12-16T16:00:00'
 				},

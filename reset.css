@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-/* Font 
-*  https://google-webfonts-helper.herokuapp.com/fonts 
+/* Fonte
+*  https://fonts.google.com/specimen/Noto+Sans+JP
 */
 @font-face {
   font-family: 'Noto Sans JP';
@@ -24,8 +24,8 @@ dl,ul,li,ol,menu {list-style-type: none;}
 
 /* a link Reset */
 a {
-    color: #222;
-    text-decoration: none;
+  color: #222;
+  text-decoration: none;
 }
 
 a:hover {
@@ -54,8 +54,8 @@ body, input, textarea, select, button, table {
 }
 
 
-/* scroll bar 
-*  modificado de https://codepen.io/devstreak/pen/dMYgeO 
+/* Barra de Rolagem
+*  adaptado de https://codepen.io/devstreak/pen/dMYgeO 
 */
 ::-webkit-scrollbar-track
 {

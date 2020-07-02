@@ -40,19 +40,20 @@
 				<!-- // header_1 menu -->
 				<div class="header_1-title">
 					<div class="header_1-icon">
-						<a href="http://swy-326.github.io/web3.0/index.html">
+						<a href="http://swytrabalho.byethost18.com/web/">
 							<img src="#" width="70" height="70"/>
 						</a>
 					</div>
 					<h1>Vestibulares &amp; Universidades</h1>
 					<br>
-					<a href="https://swy-326.github.io/web3.0/">https://swy-326.github.io/web3.0/</a>
+					<a href="http://swytrabalho.byethost18.com/web/">http://swytrabalho.byethost18.com/web/</a>
 				</div>
 				<!-- // header_1 title -->
 			</div>		
 		</div>
 		<!-- // header_1 -->
 
+		<!-- header_2 -->
 		<div id="header_2">
 			<div class="header_2-container">
 				<div>
@@ -60,7 +61,7 @@
 					<p>INFORMAÇÕES</p>
 				</div>
 			</div>		
-			<!-- //header icon menu -->
+			<!-- //header_2-container -->
 		</div>
 		<!-- // header_2 -->
 
@@ -90,10 +91,12 @@
 						<li><a href="../pages2/rank.php">RANKING<br>GERAL</a></li>
 					</ul>
 				</div>
-			</div>		
+			</div>
+			<!-- // nav-main -->		
 		</div>
 		<!-- // nav_1 -->
 		
+		<!-- nav_2 -->
 		<div id="nav_2">
 			<div class="nav-sub">
 				<div>
@@ -102,37 +105,41 @@
 					?>
 				</div>
 			</div>
+			<!-- // nav-sub -->
 		</div>
 		<!-- // nav_2 -->
 
+		<!-- contents -->
 		<div id="contents">
 			<div class="cont">
-					<div class="cont-title">
-						<?php
-							echo $title;
-						?>
-					</div>
-					<div class="cont-cont">
-						<?php
-							echo $content;
-						?>
-					</div>			
+				<div class="cont-title">
+					<?php
+						echo $title;
+					?>
 				</div>
+				<!-- //cont-title -->
+
+				<div class="cont-cont">
+					<?php
+						echo $content;
+					?>
+				</div>
+				<!-- //cont-cont -->			
+			</div>
 		</div>
 		<!-- // contents -->
 
+		<!-- footer -->
 		<div id="footer">
 			<div class="footer-container">
-				    Copyright &copy; 2020, SWY. All Rights Reserved
+				Copyright &copy; 2020, SWY. All Rights Reserved
 			</div>
 		</div>
 		<!-- // footer -->
 
 
 	</div>
-
 </body>
-
 </html>
 
 
