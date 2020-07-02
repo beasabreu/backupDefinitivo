@@ -36,15 +36,15 @@ Footer <br>
 
 Open-Source utilizados
 ------------------------------------------------
-Fonte <br>
+_Fonte <br>
 https://fonts.google.com/specimen/Noto+Sans+JP <br>
 https://google-webfonts-helper.herokuapp.com/fonts  <p>
 
-Calendário <br>
+_Calendário <br>
 https://codepen.io/nijin39/pen/JbQBXM <p>
 
-Barra de Rolagem <br>
+_Barra de Rolagem <br>
 Modificado de https://codepen.io/devstreak/pen/dMYgeO  <p>
 
-Icon <br>
+_Icon <br>
 https://thenounproject.com/term/book-and-pencil/3271225 <p>
