@@ -116,7 +116,9 @@
 	margin-left: 13%;
 	margin-right: 0%;
 	display:flex;
-	flex-grow: 1;}
+	flex-grow: 1;
+	overflow-x: hidden;
+	overflow-y: scroll;}
 .nav-main > div {
 	float: left; }
 .nav-main > div ul {
@@ -184,4 +186,32 @@
 	font-size: 11px;
 	text-align: center;
 	padding-top: 17px;
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+
+	.header_2-container {
+		visibility: hidden;
+	}
+
+	#nav_1 {
+		width: 100%;
+		overflow-x: hidden;
+		overflow-y: scroll;
+	}
+
+	#nav_2 {
+		visibility: hidden;
+		display: none;
+		clear: both;
+		float: left;
+	}
+
+	#contents {
+		visibility: hidden;
+		display: none;
+		clear: both;
+		float: left;
+	}
 }

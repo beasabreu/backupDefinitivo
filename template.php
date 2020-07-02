@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-	<meta charset="utf-8">
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FSI</title>
 
 	<!-- CSS Style -->
@@ -33,7 +33,7 @@
 		<div id="header_1">
 			<div>
 				<div class="header_1-menu">
-					<a href="https://github.com/swy-326/web3.0">Link_1</a>
+					<a href="https://github.com/swy-326/web3.0">GitHub</a>
 					<a href="http://fakeupdate.net/wnc/">Link_2</a>
 				</div>
 				<!-- // header_1 menu -->
