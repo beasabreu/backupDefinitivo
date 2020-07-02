@@ -44,7 +44,7 @@ Calendário <br>
 https://codepen.io/nijin39/pen/JbQBXM <p>
 
 Barra de Rolagem <br>
-https://codepen.io/devstreak/pen/dMYgeO  <p>
+Modificado de https://codepen.io/devstreak/pen/dMYgeO  <p>
 
 Icon <br>
 https://thenounproject.com/term/book-and-pencil/3271225 <p>
