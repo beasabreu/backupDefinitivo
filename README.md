@@ -70,3 +70,10 @@ https://calendar.google.com/calendar/r/eventedit?
     &dates=20200703T193000Z/20201231T223000Z
     &details=Hoje+começam+as+inscrições+de+ENEM
 ```
+<br>
+
+
+Erros não resolvidos
+----------------------------------
+- Google Calendar <p>
+A cookie associated with a cross-site resource at http://google.com/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.
