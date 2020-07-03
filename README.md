@@ -48,7 +48,7 @@ Parte onde se mostra a informação da opção selecionada <br>
 Footer <br>
 
 
-Open-Source utilizados
+Recursos / Open-Source utilizados
 ------------------------------------------------
 - Fonte <br>
 https://fonts.google.com/specimen/Noto+Sans+JP <br>
@@ -63,5 +63,10 @@ Modificado de https://codepen.io/devstreak/pen/dMYgeO  <p>
 - Icon <br>
 https://thenounproject.com/term/book-and-pencil/3271225 <p>
   
-- Google Calendar url
-https://github.com/InteractionDesignFoundation/add-event-to-calendar-docs/blob/master/services/google.md <p>
+- Google Calendar <br>
+```
+https://calendar.google.com/calendar/r/eventedit?
+    text=Inscrição+ENEM
+    &dates=20200703T193000Z/20201231T223000Z
+    &details=Hoje+começam+as+inscrições+de+ENEM
+```
