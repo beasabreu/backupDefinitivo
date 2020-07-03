@@ -22,29 +22,29 @@ Estrutura básica do site
 ---------------------------------------------
 ![Estrutura básisca](https://github.com/swy-326/backupDefinitivo/raw/master/readme_img/structure.png)
 
-### #skip
+#### #skip
 Acessibilidade, Skip Navigation <br>
 
-### #header_1 
+#### #header_1 
 Header principal do site <br>
 
-### #header_2
+#### #header_2
 Header secundário em que indica o que contém no #nav_1 e #nav_2  <br>
 Quando o width do site se torna menor que 600, esconde div é escondido <br>
 
-### #nav_1
+#### #nav_1
 Menu onde se dispõe das opções da qual deseja obter informação <br>
 Com width da tela < 600, este nav não é mostrado. <br>
 
-### #nav_2 
+#### #nav_2 
 Contém hyperlinks do .cont-cont <br>
 
-### #contents
+#### #contents
 Parte onde se mostra a informação da opção selecionada <br>
 .cont-title : Nome completo da Universidade / Enem <br>
 .cont-cont : Todos as informações  <br>
 
-### #footer
+#### #footer
 Footer <br>
 
 
