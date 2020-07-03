@@ -66,6 +66,9 @@ Modificado de https://codepen.io/devstreak/pen/dMYgeO  <p>
 - Icon <br>
 https://thenounproject.com/term/book-and-pencil/3271225 <p>
   
+- Word to Html<br>
+https://wordtohtml.net/ <p>
+  
 - Google Calendar <br>
 ```
 https://calendar.google.com/calendar/r/eventedit?
