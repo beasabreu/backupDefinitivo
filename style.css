@@ -189,10 +189,12 @@
 
 	#header_2 {
 		visibility: hidden;
+		display: none;
 	}
 
 	#nav_1 {
 		width: 100%;
+		height: calc(100vh - 120px);
 		overflow-x: hidden;
 		overflow-y: scroll;
 	}

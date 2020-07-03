@@ -190,6 +190,7 @@
 
 	#header_2 {
 		visibility: hidden;
+		display: none;
 	}
 
 	#nav_1 {
@@ -207,8 +208,36 @@
 	}
 	
 	#contents {
-		height: auto;
 		width: 100%;
+		height: calc(100vh - 120px);
 	}
 
+	.cont .cont-cont  {
+		height: calc(100vh - 230px);
+	}
+}
+
+/* Tablet */
+@media screen and (min-width: 601px) and (max-width: 1000px){
+	#header_2 {
+		visibility: hidden;
+		display: none;
+	}
+
+	#nav_1 {
+		visibility: hidden;
+		display: none;
+		clear: both;
+		float: left;
+		height: calc(100vh - 120px);}
+
+	#contents {
+		float: left;
+		width: calc(100% - 241px);
+		height: calc(100vh - 120px);
+	}
+
+	.cont .cont-cont  {
+		height: calc(100vh - 230px);
+	}
 }

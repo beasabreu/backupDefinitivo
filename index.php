@@ -1,4 +1,10 @@
-﻿<?php
+﻿<!-- 
+    Testado nos broswers :
+        PC - Microsoft Edge
+        Android - Samsung Browser, Opera, Chrome
+-->
+
+<?php
 
 $submenu = "← Escolha uma universidade ou ENEM da qual deseja obter informação";
 $title = "Página principal";
