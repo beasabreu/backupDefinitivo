@@ -73,7 +73,9 @@ https://calendar.google.com/calendar/r/eventedit?
 <br>
 
 
-Erros não resolvidos
+Bugs não resolvidos
 ----------------------------------
 - Google Calendar <p>
-A cookie associated with a cross-site resource at http://google.com/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.
+  - A cookie associated with a cross-site resource at http://google.com/ was set without the `SameSite` attribute. A future release of Microsoft Edge will only deliver cookies with cross-site requests if they are set with `SameSite=None` and `Secure`. You can review cookies in developer tools under Application>Storage>Cookies and see more details at https://www.chromestatus.com/feature/5088147346030592 and https://www.chromestatus.com/feature/5633521622188032.<br>
+  - Tracking Prevention blocked access to storage for \<URL\>. <br>
+  - Refused to display 'https://www.google.com/?gws_rd=ssl' in a frame because it set 'X-Frame-Options' to 'sameorigin' <br>
