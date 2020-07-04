@@ -98,7 +98,7 @@
 		<div id="contents">
 			<div class="cont">
 				<div class="cont-cont">
-						<object data="fullcalendar/main.html" width="100%" height="100%" style="float:left"></object>
+						<object data="fullcalendar/lib/main.html" width="100%" height="100%" style="float:left"></object>
 				</div>	
 				<!-- //cont-cont -->
 			</div>
