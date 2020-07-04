@@ -1,17 +1,14 @@
 ﻿<?php
 
 
-$submenu = "<a href=\"#info\">Informações</a><br>
+$submenu = "<a href=\"#1\">Informações</a><br>
 
 
-<a href=\"#dig\">Enem Digital　　</a><br>
+<a href=\"#11\">Enem Digital</a><br>
 
-<a href=\"#imp\">Enem Impresso　　</a><br>
+<a href=\"#12\">Enem Impresso</a><br>
 
-<a href=\"#\">Calendário</a><br>
-
-
-<a href=\"#\">Provas Anteriores</a><br>";
+<a href=\"#2\">Calendário</a><br>";
 
 $title = "Exame Nacional de Ensino Médio";
 $content = file_get_contents('content/enem.html');
