@@ -70,6 +70,7 @@
 					<ul>						
 						<strong>CALENDÁRIO</strong>
 						<li><a href="pages2/calendario.php">CALENDÁRIO<br>GERAL</a></li>
+
 						<br><br><strong>UNIVERSIDADES</strong>
 						<li><a href="pages/enem.php">ENEM</a></li>
 						<li><a href="pages/usp.php">USP</a></li>
@@ -84,9 +85,8 @@
 						<li><a href="pages/fatec.php">FATEC</a></li>
 						<li><a href="pages/famema.php">FAMEMA</a></li>
 						<li><a href="pages/famerp.php">FAMERP</a></li>
-						<li><a href="pages/uscs.php">USCS</a></li>
-						<li><a href="pages/unitau.php">UNITAU</a></li><br><br>
-						<strong>RANKING</strong>
+				
+						<br><br><strong>RANKING</strong>
 						<li><a href="pages2/rank.php">RANKING<br>GERAL</a></li>
 					</ul>
 				</div>

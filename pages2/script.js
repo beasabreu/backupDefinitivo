@@ -18,6 +18,7 @@ $(document).ready(function() {
 
 	todaydate = mm+'-'+dd+'-'+yyyy;
 
+	// https://github.com/InteractionDesignFoundation/add-event-to-calendar-docs/blob/master/services/google.md
 
 		$('#calendar').fullCalendar({
 			header: {
@@ -30,58 +31,113 @@ $(document).ready(function() {
 			editable: false,
 			eventLimit: true, // allow "more" link when too many events
 			events: [
-				{
-					title: 'All Day Event',
-					start: '2016-12-01'
-				},
+
+				/*
+				Exemplo
+
 				{
 					title: 'Long Event',
 					start: '2016-12-07',
-					end: '2016-12-10'
+					end: '2016-12-10',
+					url: ' https://calendar.google.com/calendar/r/eventedit?
+								text=Exemplo
+								&dates=20201231T193000Z/20201231T223000Z
+								&details=Exemplo+Exemplo
+					'
+				},
+				*/
+
+				{
+					title: 'Inscrição ENEM',
+					start: '2020-07-03',
+					end: '2020-12-31',
+					url: 'https://calendar.google.com/calendar/r/eventedit?text=Inscrição+ENEM&dates=20200703T193000Z/20201231T223000Z&details=Hoje+começam+as+inscrições+para+o+ENEM'
+				},
+				{					
+					title: 'Inscrição FUVEST',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Repeating Event',
-					start: '2016-12-09T16:00:00'
+					title: 'Inscrição UNICAMP',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Repeating Event',
-					start: '2016-12-16T16:00:00'
+					title: 'Inscrição UNESP',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Conference',
-					start: '2016-12-11',
-					end: '2016-12-13'
+					title: 'Inscrição UNIFESP',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Meeting',
-					start: '2016-12-12T10:30:00',
-					end: '2016-12-12T12:30:00'
+					title: 'Inscrição UFABC',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Lunch',
-					start: '2016-12-12T12:00:00'
+					title: 'Inscrição UFSCAR',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Meeting',
-					start: '2016-12-12T14:30:00'
+					title: 'Inscrição IFSP',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Happy Hour',
-					start: '2016-12-12T17:30:00'
+					title: 'Inscrição UNIVESP',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Dinner',
-					start: '2016-12-12T20:00:00'
+					title: 'Inscrição ITA',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Birthday Party',
-					start: '2016-12-13T07:00:00'
+					title: 'Inscrição FATEC',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				},
 				{
-					title: 'Click for Google',
-					url: 'https://google.com/',
-					start: '2016-12-28'
+					title: 'Inscrição FAMEMA',
+					start: ' ',
+					end: ' ',
+					url: ' '
+				},
+				{
+					title: 'Inscrição FAMERP',
+					start: ' ',
+					end: ' ',
+					url: ' '
+				},
+				{
+					title: 'Inscrição USCS',
+					start: ' ',
+					end: ' ',
+					url: ' '
+				},
+				{
+					title: 'Inscrição UNITAU',
+					start: ' ',
+					end: ' ',
+					url: ' '
 				}
+
 			]
 		});
 		
