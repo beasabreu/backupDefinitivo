@@ -38,13 +38,15 @@
 	background: url(../images/line.png) right;
 	background-repeat: repeat-y;
 	padding-right: 1px;
-	height: calc(100vh - 155px);}
+	height: calc(100vh - 155px);
+	overflow-y: scroll;}
 #nav_2 {
 	float: left; 
 	width: 240px;
 	background-repeat: repeat-y;
 	padding-right: 1px;
-	height: calc(100vh - 155px);}
+	height: calc(100vh - 155px);
+	overflow-y: scroll;}
 #contents {
 	float: left;
 	width: calc(100% - 402px);
@@ -196,24 +198,22 @@
 	#nav_1 {
 		visibility: hidden;
 		display: none;
-		clear: both;
-		float: left;
 	}
 
 	#nav_2 {
 		visibility: hidden;
 		display: none;
-		clear: both;
-		float: left;
 	}
 	
 	#contents {
+		float: left;
 		width: 100%;
 		height: calc(100vh - 120px);
 	}
 
 	.cont .cont-cont  {
 		height: calc(100vh - 230px);
+		width: 100%;
 	}
 }
 
@@ -237,7 +237,8 @@
 		height: calc(100vh - 120px);
 	}
 
-	.cont .cont-cont  {
+	.cont .cont-cont {
 		height: calc(100vh - 230px);
 	}
+
 }

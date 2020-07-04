@@ -38,7 +38,8 @@
 	background: url(../images/line.png) right;
 	background-repeat: repeat-y;
 	padding-right: 1px;
-	height: calc(100vh - 155px);}
+	height: calc(100vh - 155px);
+	overflow-y: scroll;}
 #contents {
 	float: left;
 	width: calc(100% - 161px);
@@ -180,6 +181,6 @@
 	}
 
 	.cont .cont-cont  {
-		height: calc(100vh - 230px);
+		height: calc(100vh - 150px);
 	}
 }

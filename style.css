@@ -38,14 +38,16 @@
 	background: url(images/line.png) right;
 	background-repeat: repeat-y;
 	padding-right: 1px;
-	height: calc(100vh - 155px);}
+	height: calc(100vh - 155px);
+	overflow-y: scroll;}
 #nav_2 {
 	float: left; 
 	width: 240px;
 	background: url(images/line.png) right;
 	background-repeat: repeat-y;
 	padding-right: 1px;
-	height: calc(100vh - 155px);}
+	height: calc(100vh - 155px);
+	overflow-y: scroll;}
 #contents {
 	float: left;
 	width: calc(100% - 402px);
@@ -113,8 +115,7 @@
 	margin-right: 0%;
 	display:flex;
 	flex-grow: 1;
-	overflow-x: hidden;
-	overflow-y: scroll;}
+	overflow-x: hidden;}
 .nav-main > div {
 	float: left;}
 .nav-main > div ul {
