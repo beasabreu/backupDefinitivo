@@ -13,7 +13,7 @@ Sungwon Yoon 9822261
 Introdução
 ------------------------------------------
 Para informar sobre vestib <br><br>
-### Vídeo de apresentação
+### Vídeo de apresentação (Youtube)
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/-XXod_Bd8VQ/0.jpg)](http://www.youtube.com/watch?v=-XXod_Bd8VQ)
 
 
